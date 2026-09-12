@@ -1,0 +1,20 @@
+PRIVATE WELLNESS — GITHUB/CODEMAGIC UPLOAD
+
+1. DOWNLOAD the ZIP ChatGPT gives you.
+2. EXTRACT/UNZIP it on your phone or computer.
+3. Open the extracted folder.
+4. You should immediately see:
+   codemagic.yaml
+   pubspec.yaml
+   lib
+   assets
+   backend
+   tool
+5. In GitHub, DELETE the old uploaded ZIP file if that is all your repository currently contains.
+6. Upload the CONTENTS of the extracted folder to the ROOT of your GitHub repository.
+7. Confirm on GitHub that codemagic.yaml and pubspec.yaml are visible immediately on the repository's main page — not inside another folder and not inside a ZIP.
+8. In Codemagic, rescan/check the repository configuration.
+9. Run workflow: Android APK - easiest first build
+10. Download app-debug.apk from Codemagic artifacts after a successful build.
+
+Do NOT upload this ZIP as a single ZIP file and expect Codemagic to build the files inside it.
